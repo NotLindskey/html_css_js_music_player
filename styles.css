@@ -32,3 +32,24 @@
   max-height: 600px;
 }
 
+.song-title {
+  font-family: 'Raleway', 'sans-serif';
+  text-align: center;
+}
+
+.song-title h3 {
+  font-weight: 300;
+  font-size: 64px;
+  padding: 32px;
+}
+
+.player-controller {
+  display: flex;
+  justify-content: space-around;
+  margin: 96px;
+}
+
+.player-controller img {
+  width: 48px;
+  cursor: pointer;
+}
